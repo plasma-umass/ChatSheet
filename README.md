@@ -17,6 +17,8 @@ options:
 
 # Examples
 
+## Example querying a CSV file.
+
 ```shell
 ohsheet --file test/examples/deniro.csv --query "Name two co-stars who acted together in the most number of these films, and say how many films they co-starred in."
 ```
@@ -89,6 +91,8 @@ They co-starred in 7 films.
 
 Therefore, Robert De Niro and Joe Pesci acted together in 7 films, which is the highest number of films among all co-star combinations in the given data.
 </details>
+
+## Example, querying an Excel spreadsheet.
 
 ```shell
 ohsheet --file test/examples/acme-payroll.xlsx --query "Name the employees and how much money they made. Explain your reasoning.""
