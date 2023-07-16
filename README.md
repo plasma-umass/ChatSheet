@@ -7,6 +7,12 @@ Instant data analysis for your CSV files or Excel spreadsheets.
 # Usage
 
 ```shell
+usage: ohsheet [-h] --file FILE --query QUERY
+
+options:
+  -h, --help     show this help message and exit
+  --file FILE    Input file to be processed.
+  --query QUERY  Query to be executed
 ```
 
 # Examples
