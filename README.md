@@ -102,7 +102,6 @@ ohsheet --file test/examples/acme-payroll.xlsx --query "Name the employees and h
 <summary>
 Result:
 </summary>
-```
 The employees and how much money they made can be determined from the information in the Excel spreadsheet.
 
 From the information provided in Sheet "Sheet1", the employees and their corresponding earnings are as follows:
@@ -129,7 +128,6 @@ Therefore, the employees and how much money they made are as follows:
 - Adams: $1064.25
 - Stevens: $1512
 - Harris: $1059.25
-```
 </details>
 
 # Installation
