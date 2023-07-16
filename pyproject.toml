@@ -3,13 +3,13 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ChatCSV"
+name = "OhSheet"
 version = "0.0.1"
 authors = [
   { name="Emery Berger", email="emery.berger@gmail.com" },
 ]
 dependencies = ["openai>=0.27.0", "openai_async>=0.0.3", "aiohttp==3.8.3"]
-description = "ChatCSV."
+description = "OhSheet."
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
@@ -24,8 +24,8 @@ classifiers = [
 ]
 
 [project.scripts]
-chatcsv = "chatcsv.__main__:main"
+ohsheet = "ohsheet.__main__:main"
 
 [project.urls]
-"Homepage" = "https://github.com/plasma-umass/ChatCSV"
-"Bug Tracker" = "https://github.com/plasma-umass/ChatCSV"
+"Homepage" = "https://github.com/plasma-umass/OhSheet"
+"Bug Tracker" = "https://github.com/plasma-umass/OhSheet"
