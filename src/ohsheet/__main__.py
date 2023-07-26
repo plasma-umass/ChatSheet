@@ -5,3 +5,5 @@ from . import ohsheet
 def main():
     ohsheet.main()
 
+main()
+
