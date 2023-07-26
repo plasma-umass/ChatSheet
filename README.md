@@ -1,6 +1,6 @@
 # OhSheet
 
-![OhSheet](https://upload.wikimedia.org/wikipedia/en/3/3d/Clay_Davis.jpg)
+[![OhSheet](https://upload.wikimedia.org/wikipedia/en/3/3d/Clay_Davis.jpg)](https://en.wikipedia.org/wiki/Clay_Davis)
 
 Instant data analysis for your CSV files or Excel spreadsheets.
 
