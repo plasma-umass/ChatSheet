@@ -55,18 +55,13 @@ def processExcel(filename, query):
     Given the following information about an Excel spreadsheet, where each
     sheet starts with "Sheet: (sheet name)" and then is followed by the
     contents of the sheet in the form (cell, formula, cell value) or (cell, cell value),
-    answer the following query: "{query}"
+    answer the following query: "{query}".
 
     Excel information:
     {result_str}
     """
 
     return prompt
-
-
-def processText(file, query):
-    print("Processing Text file: ", file, query)
-    # Your Text processing code here
 
 
 def precheck():
@@ -130,7 +125,8 @@ def main():
     elif extension == '.xlsx':
         user_prompt = processExcel(args.file, args.query)
     elif extension == '.txt':
-        user_prompt = processText(args.file, args.query)
+        pass
+        # user_prompt = processText(args.file, args.query)
     else:
         print("Unrecognized file type. The file must be a .csv, .xlsx or .txt file")
 

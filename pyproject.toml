@@ -3,13 +3,13 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "OhSheet"
+name = "ChatSheet"
 version = "0.0.1"
 authors = [
   { name="Emery Berger", email="emery.berger@gmail.com" },
 ]
 dependencies = ["openai>=0.27.0", "openai_async>=0.0.3", "aiohttp==3.8.3"]
-description = "OhSheet."
+description = "ChatSheet."
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
@@ -27,5 +27,5 @@ classifiers = [
 ohsheet = "ohsheet.__main__:main"
 
 [project.urls]
-"Homepage" = "https://github.com/plasma-umass/OhSheet"
-"Bug Tracker" = "https://github.com/plasma-umass/OhSheet"
+"Homepage" = "https://github.com/plasma-umass/ChatSheet"
+"Bug Tracker" = "https://github.com/plasma-umass/ChatSheet"
